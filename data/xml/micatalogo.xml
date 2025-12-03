@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="micatalogo_resumen.xsl"?>
+<catalogo>
+    <producto id="ART001"> 
+        <nombre>Rodillera max 3000</nombre>
+        <desc>Este producto tiene muchas características estupendas, ¡cómpralo!</desc>
+        <detalles>Grande, pesado </detalles>
+        <categoria>Vestimenta</categoria>
+        <precio moneda="EUR">55.99</precio>
+        <imagen
+            url="rodillera.jpg" />
+    </producto>
+
+    <producto id="ART002">
+        <nombre>Alarma atraebichos</nombre>
+        <desc>¡Nuevo producto para guardar  en un cajón de casa, cómpralo!</desc>
+        <detalles>Hace mucho ruido, atrae más insectos</detalles>
+        <categoria>Tecnología</categoria>
+        <precio moneda="EUR">25.50</precio>
+        <imagen url="alarma.jpg" />
+    </producto>
+
+    <producto id="ART003">
+        <nombre>Carritomelón</nombre>
+        <desc>Este producto no sirve de nada, mejor compra otro producto</desc>
+        <detalles>Se queda atascado, un poco feo</detalles>
+        <categoria>Miscelánea</categoria>
+        <precio moneda="EUR">39.99</precio>
+        <imagen
+            url="carrito.jpg" />
+    </producto>
+
+    <producto id="ART004">
+        <nombre>Batamanta</nombre>
+        <desc>La tipica manta de toda la vida, ¡pero ahora con mangas!</desc>
+        <detalles>Muy suave, calentita</detalles>
+        <categoria>Vestimenta</categoria>
+        <precio moneda="EUR">20</precio>
+        <imagen url="batamanta.jpg" />
+    </producto>
+
+    <producto id="ART005">
+        <nombre>Quita esfuerzos 2000</nombre>
+        <desc>¿Estás cansado de agacharte para ponerte los calcetines? ¡Este es tu producto!</desc>
+        <detalles>Un poco incómodo, es muy útil</detalles>
+        <categoria>Miscelánea</categoria>
+        <precio moneda="EUR">15.99</precio>
+        <imagen
+            url="calcetin.jpg" />
+    </producto>
+
+    <producto id="ART006">
+        <nombre>Chancla césped</nombre>
+        <desc>Con este producto sentirás en todo momento que estás en el parque con los
+            amigos. Además trae un buen aroma a cesped recién cortado, cómpralo!</desc>
+        <detalles>Como si estuvieses en un parque, pies siempre perfumados con olor a césped</detalles>
+        <categoria>Vestimenta</categoria>
+        <precio moneda="EUR">33</precio>
+        <imagen
+            url="chanclas.png" />
+    </producto>
+
+    <producto id="ART007">
+        <nombre>SinGotas Rodillo</nombre>
+        <desc>¿Quieres sentirte como un pintor profesional? Compra ahora nuestro nuevo
+            rodillo anti salpicaduras</desc>
+        <detalles>Muy fácil de usar, no gotea</detalles>
+        <categoria>Miscelánea</categoria>
+        <precio moneda="EUR">43.99</precio>
+        <imagen url="rodillo.jpg" />
+    </producto>
+
+    <producto id="ART008">
+        <nombre>Corta Todo</nombre>
+        <desc>¿Cansado de utilizar el cuchillo para cortar? Utiliza esta nueva herramienta de cocina</desc>
+        <detalles>Cuidado que corta demasiado</detalles>
+        <categoria>Miscelánea</categoria>
+        <precio moneda="EUR">25.99</precio>
+        <imagen url="cortadora.jpg" />
+    </producto>
+
+</catalogo>
+
+<!-- 
+Se utiliza un archivo XML debido a que este documento nos permite acumular más información de manera descriptiva.
+Con el archivo XML podemos categorizar todos los elementos como queramos.
+Como principal diferencia respecto al HTML desaparece la principal estructura donde cada elemento es definido de manera más descriptiva.
+Por ejemplo (<h2>) pasa a ser <nombre>, (<p>) pasa a ser <descripción>...
+Para este documento se han determinado diferentes elementos para conocer las caracteristicas de los diferentes artículos.
+Para identificar los distintos productos se han utilizado atributos numéricos para una fácil localzación de los artículos. 
+-->
