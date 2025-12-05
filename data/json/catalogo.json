@@ -7,8 +7,10 @@
                 "desc": "Este producto tiene muchas características estupendas, ¡cómpralo!",
                 "detalles": "Grande, pesado",
                 "categoria": "Vestimenta",
-                "precio": 55.99,
-                "moneda": "EUR",
+                "precio": {
+                    "moneda": "EUR",
+                    "valor": 55.99
+                },
                 "stock": true
             },
             {
@@ -17,8 +19,10 @@
                 "desc": "¡Nuevo producto para guardar  en un cajón de casa, cómpralo!",
                 "detalles": "Hace mucho ruido, atrae más insectos",
                 "categoria": "Tecnología",
-                "precio": 25.50,
-                "moneda": "EUR",
+                "precio": {
+                    "moneda": "EUR",
+                    "valor": 25.50
+                },
                 "stock": true
             },
             {
@@ -27,8 +31,10 @@
                 "desc": "Este producto no sirve de nada, mejor compra otro producto",
                 "detalles": "Se queda atascado, un poco feo",
                 "categoria": "Miscelánea",
-                "precio": 39.99,
-                "moneda": "EUR",
+                "precio": {
+                    "moneda": "EUR",
+                    "valor": 39.99
+                },
                 "stock": true
             },
             {
@@ -37,8 +43,10 @@
                 "desc": "La tipica manta de toda la vida, ¡pero ahora con mangas!",
                 "detalles": "Muy suave, calentita",
                 "categoria": "Vestimenta",
-                "precio": 20,
-                "moneda": "EUR",
+                "precio": {
+                    "moneda": "EUR",
+                    "valor": 20
+                },
                 "stock": true
             },
             {
@@ -47,8 +55,10 @@
                 "desc": "¿Estás cansado de agacharte para ponerte los calcetines? ¡Este es tu producto!",
                 "detalles": "Un poco incómodo, es muy útil",
                 "categoria": "Miscelánea",
-                "precio": 15.99,
-                "moneda": "EUR",
+                "precio": {
+                    "moneda": "EUR",
+                    "valor": 15.99
+                },
                 "stock": true
             },
             {
@@ -57,8 +67,10 @@
                 "desc": "Con este producto sentirás en todo momento que estás en el parque con los amigos. Además trae un buen aroma a cesped recién cortado, cómpralo!",
                 "detalles": "Como si estuvieses en un parque, pies siempre perfumados con olor a césped",
                 "categoria": "Vestimenta",
-                "precio": 33,
-                "moneda": "EUR",
+                "precio": {
+                    "moneda": "EUR",
+                    "valor": 33
+                },
                 "stock": true
             },
             {
@@ -67,8 +79,10 @@
                 "desc": "¿Quieres sentirte como un pintor profesional? Compra ahora nuestro nuevo rodillo anti salpicaduras",
                 "detalles": "Muy fácil de usar, no gotea",
                 "categoria": "Miscelánea",
-                "precio": 43.99,
-                "moneda": "EUR",
+                "precio": {
+                    "moneda": "EUR",
+                    "valor": 43.99
+                },
                 "stock": true
             },
             {
@@ -77,8 +91,10 @@
                 "desc": "¿Cansado de utilizar el cuchillo para cortar? Utiliza esta nueva herramienta de cocina",
                 "detalles": "Cuidado que corta demasiado",
                 "categoria": "Miscelánea",
-                "precio": 25.99,
-                "moneda": "EUR",
+                "precio": {
+                    "moneda": "EUR",
+                    "valor": 25.99
+                },
                 "stock": true
             }
         ]
